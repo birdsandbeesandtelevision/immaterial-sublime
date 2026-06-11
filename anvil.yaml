@@ -1,4 +1,27 @@
 allow_embedding: false
+db_schema:
+  movingpictureswithsoundandstuffmadeformoney:
+    client: search
+    columns:
+    - admin_ui: {order: 0, width: 200}
+      client_hidden: false
+      name: movie_name
+      type: string
+    - admin_ui: {order: 1, width: 200}
+      client_hidden: false
+      name: year
+      type: number
+    - admin_ui: {order: 2, width: 200}
+      client_hidden: false
+      name: director
+      type: string
+    - admin_ui: {order: 3, width: 200}
+      client_hidden: false
+      name: summary
+      type: string
+    indexes: []
+    server: full
+    title: MovingPicturesWithSoundAndStuffMadeForMoney
 name: immaterial sublime
 package_name: immaterial_sublime
 runtime_options:
